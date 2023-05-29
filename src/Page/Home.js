@@ -8,7 +8,7 @@ const Home = () => {
         <h2>Hi, My name is Mark</h2>
         <div className="prompt">
           <p>
-            I am a highly motivated recent CS graduate seeking new opportunities
+            I'm a highly motivated, recent CS graduate seeking new opportunities
           </p>
           <LinkedIn
             className="icon"
