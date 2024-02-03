@@ -7,9 +7,7 @@ const Home = () => {
       <div className="about">
         <h2>Hi, My name is Mark</h2>
         <div className="prompt">
-          <p>
-            I'm a highly motivated, recent CS graduate seeking new opportunities
-          </p>
+          <p>I'm a highly motivated Software Developer</p>
           <LinkedIn
             className="icon"
             onClick={() =>
@@ -38,11 +36,13 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>Languages</h2>
-            <span>Java, C++, JavaScript, Python, SQL, PHP, HTML/CSS</span>
+            <span>
+              Java, C++, VB.NET, PHP, JavaScript, Python, SQL, HTML/CSS
+            </span>
           </li>
           <li className="item">
             <h2>Technologies/Frameworks</h2>
-            <span>React, Node.js, Express.js</span>
+            <span>React, Node.js, Express.js, Flask</span>
           </li>
           <li className="item">
             <h2>Developer Tools</h2>

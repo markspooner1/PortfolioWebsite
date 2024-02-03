@@ -79,6 +79,37 @@ const Experience = () => {
             adoption and voter turnout{" "}
           </p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Aug 2023 - Present"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #a0b1db" }}
+          icon={<WorkTwoTone />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Software Implementation Consultant, Fast Enterprises
+          </h3>
+          <p>
+            Collaborate with staff at the Ministry of Finance to gather
+            requirements and apply software solutions using SQL and VB.NET.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Aug 2023 - Present"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #a0b1db" }}
+          icon={<WorkTwoTone />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Volunteer/Mentor, Canada Learning Code
+          </h3>
+          <p>
+            Currently work as a volunteer in the Durham Region to assist
+            instructors in guiding learners on various programming concepts such
+            as Python, SQL, and JavaScript.
+          </p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
